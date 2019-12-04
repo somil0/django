@@ -1,0 +1,371 @@
+{% load static %}
+{% load bootstrap4 %}
+{% load svg %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The HairStudio &mdash;</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css' %}">
+
+    <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fancybox.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+  </head>
+  <body>
+  
+
+  <div class="site-wrap">
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+{#        <span class="icon-close2 js-menu-toggle"></span>#}
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <header class="header-bar d-flex d-lg-block align-items-center" data-aos="fade-left">
+{#    <div class="site-logo">#}
+{#      <a href="index.html">Shutter</a>#}
+{#    </div>#}
+    
+    <div class="d-inline-block d-xl-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+    <div class="main-menu">
+      <ul class="js-clone-nav">
+        <li class="active"><a href="index">Home</a></li>
+        <li><a href="index">Photos</a></li>
+{#        <li><a href="bio.html">Bio</a></li>#}
+{#        <li><a href="blog.html">Blog</a></li>#}
+        <li><a href="contact">Contact</a></li>
+      </ul>
+      <ul class="social js-clone-nav">
+        <li><a href="#"><span class="icon-facebook"></span></a></li>
+        <li><a href="#"><span class="icon-twitter"></span></a></li>
+        <li><a href="#"><span class="icon-instagram"></span></a></li>
+      </ul>
+    </div>
+  </header> 
+  <main class="main-content">
+    <div class="container-fluid photos">
+      <div class="row align-items-stretch">
+        
+        <div class="col-6 col-md-6 col-lg-6" data-aos="fade-up">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/long-hair-nice-hairstyles-cute.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">long-hair-nice-hairstyles-cute</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Step-cuts-casual-hairs-for-girls.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Step-cuts-casual-hairs-for-girls</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
+          <a  class="d-block photo-item">
+            <img src="{%static 'images/Hairstyles-for-Heart-shape-face.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <h3 class="heading">Hairstyles-for-Heart-shape-face</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Girls Poofy Wavy Hairstyles.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Poofy Wavy Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
+          <a  class="d-block photo-item">
+            <img src="{%static 'images/soft-romantic-curls.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <h3 class="heading">soft-romantic-curls</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Long-Curly-Hairdo-Hairstyle.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Long-Curly-Hairdo-Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Long Hairdo Hairstyles.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Long Hairdo Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+        
+
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Newfangled Fishtail.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Newfangled Fishtail</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Classy Side Bun Girls Haircut.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Classy Side Bun Girls Haircut</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Wavy-long-Hairstyles-for-girls.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Wavy-long-Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Simple-straight-hairstyles.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Simple-straight-hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Dutch Braided Hairstyle.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Dutch Braided Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Puffed-top-hair-dos-for-girls.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Puffed-top-hair-dos-for-girls</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Wavy Medium Girl Hair.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Wavy Medium Girl Hair</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/medium-layered-hairdo-hairstyles.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">medium-layered-hairdo-hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Medium-braid-style-with-open-hair.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Medium-braid-style-with-open-hair</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Long Braided Hairstyle.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Long Braided Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Pony-Braid-Hairstyles-with-bobby-pins.png' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Pony-Braid-Hairstyles-with-bobby-pins</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Straight Long-Girl-Hairstyle kareena.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Straight Long-Girl-Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Plait Hairstyles for Long Hair Girls.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Plait Hairstyles for Long Hair</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Layered Haircut for Long Hair.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Layered Haircut for Long Hair</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/Side Braid with Curly Hairstyles.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">Side Braid with Curly Hairstyle</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+
+       <div class="col-6 col-md-6 col-lg-12" data-aos="fade-up" data-aos-delay="100">
+          <a  class="d-block photo-item">
+            <img src="{% static 'images/3 French Braid Hairstyles.jpg' %}" alt="Image" class="img-fluid">
+            <div class="photo-text-more">
+              <div class="photo-text-more">
+              <h3 class="heading">3 French Braid Hairstyles</h3>
+{#              <span class="meta">42 Photos</span>#}
+            </div>
+            </div>
+          </a>
+        </div>
+        
+
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center py-5">
+{#          <p>#}
+{#        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->#}
+{#        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |  <i class="icon-heart" aria-hidden="true"></i>  <a  target="_blank" ></a>#}
+{#        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->#}
+{#      </p>#}
+        </div>
+      </div>
+    </div>
+  </main>
+
+</div> <!-- .site-wrap -->
+
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery-ui.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap-datepicker.min.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+
+  <script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+
+  <script src="{% static 'js/main.js' %}"></script>
+    
+  </body>
+</html>
